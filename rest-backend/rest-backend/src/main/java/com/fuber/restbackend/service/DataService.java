@@ -79,12 +79,11 @@ public class DataService {
 
     private void initialiseMockData() {
         addResource(new Resource(id.getAndIncrement(), "Tractor")); //Id 0
-        addResource(new Resource(id.getAndIncrement(), "Harvester")); //Id 1
-        addResource(new Resource(id.getAndIncrement(), "Fertiliser")); //Id 2
-        addResource(new Resource(id.getAndIncrement(), "Chemical")); //Id 3
-        addResource(new Resource(id.getAndIncrement(), "Drones")); //Id 4
-        addResource(new Resource(id.getAndIncrement(), "Conveyor")); //Id 5
-        addResource(new Resource(id.getAndIncrement(), "Milling Machine")); //Id 6
+        addResource(new Resource(id.getAndIncrement(), "Tiller")); //Id 1
+        addResource(new Resource(id.getAndIncrement(), "Cultivator")); //Id 2
+        addResource(new Resource(id.getAndIncrement(), "Seeder")); //Id 3
+        addResource(new Resource(id.getAndIncrement(), "Fertilizer")); //Id 4
+        addResource(new Resource(id.getAndIncrement(), "Misc Chemicals")); //Id 5
 
         newRental(new RawBasicRental(0, "20190725", "20190925"));
         newRental(new RawBasicRental(0, "20191026", "20200116"));
